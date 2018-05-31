@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS "quotes" (
+  "id" INT AUTO_INCREMENT PRIMARY KEY,
+  "date" TIMESTAMP,
+  "currencyname" VARCHAR(10) NOT NULL,
+  "period" VARCHAR(20) NOT NULL,
+  "open" DECIMAL NOT NULL,
+  "close" DECIMAL NOT NULL,
+  "hight" DECIMAL NOT NULL,
+  "low" DECIMAL NOT NULL
+);
